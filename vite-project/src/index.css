@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+
+:root {
+  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  
+  --color-bg: #040C18;
+  --color-footer : #0f1a55;
+  --color-blog: #042c54;
+  --color-text: #81AFDD;
+  --color-subtext: #FF8A71;
+  background-color: #1F2937;
+}
+
+.buttonContainerStyles {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease 
+    
+};
+
+.buttonContainerStyles:hover {
+  background-color: #1915f5
+}
+
+.buttonStyles {
+    background-color: #b5f0a9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+    /*transition: background-color 0.3s ease;*/
+    
+};
+
+.buttonStyles:hover {
+    background-color: #1915f5;
+}
